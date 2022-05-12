@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 40
 
-title: Experience
+title: Опыт
 subtitle:
 
 # Date format for experience
@@ -22,28 +22,28 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: CEO
-    company: GenCoin
-    company_url: ''
+  - title: ученик 
+    company: Гимназия №7
+    company_url: 'https://gymnasium-7.ru/'
     company_logo: org-gc
-    location: California
-    date_start: '2021-01-01'
-    date_end: ''
+    location: Брянск 
+    date_start: '2010-09-01'
+    date_end: '2021-06-01'
     description: |2-
-        Responsibilities include:
+        Обязанности:
         
-        * Analysing
-        * Modelling
-        * Deploying
+        * Дисциплина
+        * Добросовестная учеба
+        * Уважение других учеников и преподавателей
 
-  - title: Professor of Semiconductor Physics
-    company: University X
-    company_url: ''
+  - title: студент факультета физико-математических и естественных наук
+    company: РУДН
+    company_url: 'https://esystem.rudn.ru/'
     company_logo: org-x
-    location: California
-    date_start: '2016-01-01'
-    date_end: '2020-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
+    location: Москва
+    date_start: '2021-09-01'
+    date_end: '2025-06-01'
+    description: прикладная математика и информатика
 
 design:
   columns: '2'
