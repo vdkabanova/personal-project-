@@ -25,12 +25,12 @@ content:
   # To filter by a specific tag, set `tag` to an existing tag name.
   # To remove the toolbar, delete the entire `filter_button` block.
   filter_button:
-    - name: All
-      tag: '*'
-    - name: Deep Learning
-      tag: Deep Learning
-    - name: Other
-      tag: Demo
+    - name: Программирование
+      tag: 'prog'
+    - name: Язык программирования СИ
+      tag: 'c'
+    - name: Язык программирования ПИТОН
+      tag: 'pithon'
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.

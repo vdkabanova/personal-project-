@@ -1,6 +1,6 @@
 ---
-title: Slides
-summary: An introduction to using Wowchemy's Slides feature.
+title: Программирование
+summary: Какой язык программирования учить первым?
 authors: []
 tags: []
 categories: []
@@ -13,157 +13,35 @@ slides:
   highlight_style: dracula
 ---
 
-# Create slides in Markdown with Wowchemy
+# Определение
 
-[Wowchemy](https://wowchemy.com/) | [Documentation](https://owchemy.com/docs/managing-content/#create-slides)
-
----
-
-## Features
-
-- Efficiently write slides in Markdown
-- 3-in-1: Create, Present, and Publish your slides
-- Supports speaker notes
-- Mobile friendly slides
+Программирование — это процесс создания программ (программного обеспечения). Для этого программисты пишут исходный код на одном из языков программирования.
 
 ---
 
-## Controls
+# Сколько всего языков?
 
-- Next: `Right Arrow` or `Space`
-- Previous: `Left Arrow`
-- Start: `Home`
-- Finish: `End`
-- Overview: `Esc`
-- Speaker notes: `S`
-- Fullscreen: `F`
-- Zoom: `Alt + Click`
-- [PDF Export](https://github.com/hakimel/reveal.js#pdf-export): `E`
+Существует более 300 языков программирования, но для успешной карьеры можно выбирать из десяти самых популярных. Еще правильнее будет сначала определиться с областью, в которой вы собираетесь работать, и только потом приступать к выбору языка.
 
 ---
 
-## Code Highlighting
+# ПИТОН
 
-Inline code: `variable`
-
-Code block:
-
-```python
-porridge = "blueberry"
-if porridge == "blueberry":
-    print("Eating...")
-```
+Одним из лучших языков для начинающих является Python. Этот популярный язык общего назначения хорош лаконичностью и простотой синтаксиса, его активно используют в IT-компаниях России и мира.
 
 ---
 
-## Math
+# JAVA, Pascal и C
 
-In-line math: $x + y = z$
-
-Block math:
-
-$$
-f\left( x \right) = \;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
-$$
+Другими популярными языками считаются Java и C. Они сложнее, особенно для новичков, но владение ими обеспечивает лучшее понимание того, что вы делаете и что происходит с вашей программой. Вместе с языком Pascal язык С обычно изучается в вузе на профильных факультетах.
 
 ---
 
-## Fragments
+# Выберите цель деятельности
 
-Make content appear incrementally
+Использование других языков программирования зависит от цели деятельности. Например, в качестве серверных языков популярны php, Java, ruby. Из клиентских языков наиболее перспективен Java Script. Для разработки сложных высоконагруженных проектов требуется C++. На этом же языке пишутся игры. 
 
-```
-{{%/* fragment */%}} One {{%/* /fragment */%}}
-{{%/* fragment */%}} **Two** {{%/* /fragment */%}}
-{{%/* fragment */%}} Three {{%/* /fragment */%}}
-```
+## .
 
-Press `Space` to play!
+Еще одна перспективная сфера — разработка приложений для мобильных устройств. Тут используют Java, Objective-C, Swift. Любой опытный программист знает несколько языков, однако код на работе он пишет только на одном из них.
 
-{{% fragment %}} One {{% /fragment %}}
-{{% fragment %}} **Two** {{% /fragment %}}
-{{% fragment %}} Three {{% /fragment %}}
-
----
-
-A fragment can accept two optional parameters:
-
-- `class`: use a custom style (requires definition in custom CSS)
-- `weight`: sets the order in which a fragment appears
-
----
-
-## Speaker Notes
-
-Add speaker notes to your presentation
-
-```markdown
-{{%/* speaker_note */%}}
-
-- Only the speaker can read these notes
-- Press `S` key to view
-  {{%/* /speaker_note */%}}
-```
-
-Press the `S` key to view the speaker notes!
-
-{{< speaker_note >}}
-
-- Only the speaker can read these notes
-- Press `S` key to view
-  {{< /speaker_note >}}
-
----
-
-## Themes
-
-- black: Black background, white text, blue links (default)
-- white: White background, black text, blue links
-- league: Gray background, white text, blue links
-- beige: Beige background, dark text, brown links
-- sky: Blue background, thin dark text, blue links
-
----
-
-- night: Black background, thick white text, orange links
-- serif: Cappuccino background, gray text, brown links
-- simple: White background, black text, blue links
-- solarized: Cream-colored background, dark green text, blue links
-
----
-
-{{< slide background-image="/media/boards.jpg" >}}
-
-## Custom Slide
-
-Customize the slide style and background
-
-```markdown
-{{</* slide background-image="/media/boards.jpg" */>}}
-{{</* slide background-color="#0000FF" */>}}
-{{</* slide class="my-style" */>}}
-```
-
----
-
-## Custom CSS Example
-
-Let's make headers navy colored.
-
-Create `assets/css/reveal_custom.css` with:
-
-```css
-.reveal section h1,
-.reveal section h2,
-.reveal section h3 {
-  color: navy;
-}
-```
-
----
-
-# Questions?
-
-[Ask](https://github.com/wowchemy/wowchemy-hugo-modules/discussions)
-
-[Documentation](https://wowchemy.com/docs/managing-content/#create-slides)
