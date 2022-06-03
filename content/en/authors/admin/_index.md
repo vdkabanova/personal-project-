@@ -1,33 +1,32 @@
 ---
 # Display name
-title: Варвара Кабанова
+title: Varvara Kabanova
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: студент 
+role: student 
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: РУДН
+  - name: RUDN
     url: https://esystem.rudn.ru/
 
 # Short bio (displayed in user profile at end of posts)
-bio: варька маленькая, варвара, варя и другое 
-
+bio: small varka, varvara, varya and more
 # Interests to show in About widget
 interests:
-  - Фотография
-  - Искусство 
-  - Программирование
-  - Книги
+  - Photo
+  - Art
+  - Programming
+  - Books
 
 # Education to show in About widget
 education:
   courses:
-    - course: 1 курс, прикладная математика и информатика 
-      institution: РУДН
+    - course: 1st year, applied mathematics and informatics
+      institution: RUDN
       year: 2022
 
 # Social/Academic Networking
@@ -65,8 +64,8 @@ email: ''
 highlight_name: true
 ---
 
-Варвара Кабанова родилась в городе Брянске в марте 2004 года. С самого малого возраста ей очень нравилось рисовать и разукрашивать все на своем пути. Окончила художественную школу, где много времени проводила, изучая графику и живопись. В 2021 году выпустилась из Гимназии №7, где обучалась в физико-математическом классе.
+Varvara Kabanova was born in Bryansk in March 2004. From a very young age, she really liked to draw and decorate everything in her path. She graduated from art school, where she spent a lot of time studying graphics and painting. In 2021, she graduated from Gymnasium No. 7, where she studied in the physics and mathematics class.
 
-Несмотря на столь большое различие в интересах, она сочетает в себе как творческое, так и техническое начало
+Despite such a big difference in interests, she combines both creative and technical beginnings.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
